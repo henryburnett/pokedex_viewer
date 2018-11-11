@@ -1,0 +1,145 @@
+/* BACKGROUND/GLOBAL STYLES */
+body, html{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.background {
+  background-image: url("https://i.pinimg.com/originals/51/f8/f5/51f8f53b6cab32db3810bc396c280158.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+	background-size: 100%;
+}
+.content {
+  padding: 1vw;
+  margin: 0 auto;
+  width: 83vw;
+  min-height: 100vh;
+  height: 100%;
+  overflow-y: scroll;
+}
+/* PAGE HEADER STYLES */
+.header {
+  margin: 0 auto 2.5vw;
+  width: 80vw;
+  text-align: center;
+  overflow: auto;
+}
+.title-div {
+  background-color: white;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2vh auto 6vh;
+}
+.title-wrapper {
+  display: inline-block;
+}
+.img-wrapper {
+  margin: 1vh 3vw 0;
+  padding: -5vh;
+}
+.title-div h1 {
+  display: inline-block;
+  font-size: 5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.title-div img {
+  width: 7vw;
+  height: 7vw;
+  margin: 2vw;
+  vertical-align: baseline;
+}
+/* SEARCH AND SELECTOR STYLES */
+#pokedex-selector {
+  margin: 0 7vw;
+  float: left;
+}
+#search-bar {
+  margin-left: 1vw;
+  width: 15vw
+}
+button {
+  float: right;
+}
+#random-button {
+  margin: 0 8vw;
+}
+#show-all-button {
+  margin: 0 10vw;
+}
+/* POKEMON LIST STYLES */
+#list-container {
+  margin: 0 auto;
+  background: none;
+}
+.pokemon {
+  width: 25vw;
+  height: 25vw;
+  margin: 1vw;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-bottom: 1vh;
+  font-size: 1.75rem;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+.pokemon:hover{
+  transform: scale(1.05);
+}
+.pokemon img {
+  width: 100%;
+  height: auto;
+  margin: 10px auto 5px;
+  display: block;
+}
+#details-container {
+  width: 83vw;
+  margin: 1vw auto;
+}
+.wrapper {
+  visibility: hidden;
+}
+.pokemon h2 {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.pokemon h3 {
+  font-size: 3.5vw;
+}
+.details {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  margin: 1vw;
+  padding: 1.5vw;
+  clear: both;
+  font-size: 1.35rem;
+}
+.details > h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.move {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.move-detail-div {
+  padding: 1.5vw;
+  background-color: skyblue;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3vh;
+}
+.move-detail-div > p, h4 {
+  display: inline;
+}
+.evolutionP {
+  display: inline-block;
+}

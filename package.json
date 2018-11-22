@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/henryburnett/pokedex_viewer/issues"
   },
-  "homepage": "https://github.com/henryburnett/pokedex_viewer#readme"
+  "homepage": "https://github.com/henryburnett/pokedex_viewer#readme",
+  "dependencies": {
+    "httpster": "^1.0.4"
+  }
 }
